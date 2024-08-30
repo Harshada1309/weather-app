@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("https://wallpapers.com/images/featured/weather-xqhs9axpy8btfd3y.jpg");
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background: whitesmoke;
+    opacity: 9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card:hover{
+    background: url("https://help.apple.com/assets/63FFF4F425D106794D09CC92/63FFF4F525D106794D09CC99/en_GB/dc7f8cdb406dc7704cccb5188ddc28c1.png");
+  }
+
+
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #c5d0d7;
+    border: none;
+    color: rgb(6, 6, 6);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #6cb9ec;
+  }
+  
+  h2 {
+    color: #080707;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: #080808;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+/*body{
+    background: url("https://cdn.pixabay.com/photo/2015/08/30/11/17/shore-914149_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+
+.card{
+    height: 40vh;
+    width: 25%;
+    color: white;
+    background: black;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140px,-100px); 
+    opacity: 0.9; 
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background: transparent; 
+}
+
+button{
+    background: transparent;
+    color: white;
+    height: 27px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: orangered;
+    &:hover{
+        background: white;
+        color: black;
+    }
+}
+*/
